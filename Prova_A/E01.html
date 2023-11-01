@@ -10,10 +10,16 @@
 
     //Entrada
 
+    let num = Number(prompt(`informe um numero inteiro!`));
+    let Soma = 0
 
     //Processamento
-
+        
+    for (let numero = 0; numero <= num; numero++) {
+        Soma = Soma + numero
+    }
 
     //Saída
+    document.write(`<h4> Esse é o valor da soma dos numeros: ${Soma}`)
     
 </script>
